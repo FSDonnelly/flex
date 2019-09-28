@@ -1,17 +1,16 @@
 .block {
-  /* width: 300px; */
+  width: 300px;
   height: 150px;
   background-color: orange;
   border: 1px solid red;
   font-size: 30px;
   color: white;
-
-  flex-grow: 1;
-  flex-basis: 300px;
 }
 .container {
   display: flex;
   height: 400px;
   border: 6px solid #000;
-  flex-wrap: wrap;
+}
+.block-2 {
+  flex-shrink: 2;
 }
